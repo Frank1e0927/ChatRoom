@@ -18,6 +18,6 @@ npm i 或者 yarn install
 开启应用:
 
 ```bash
-node server.js
-打开localhost:8686
+npm start ->
+localhost:8686
 ```

@@ -1,6 +1,7 @@
 body {
   padding: 50px;
-  font: 14px
+  font-size: 14px;
+  background-color: #f3f3f3;
 }
 
 a {
@@ -13,20 +14,28 @@ a {
 }
 
 #room {
-  background-color: #ddd;
+  padding: 20px;
+  background-color: #108ee9;
+  color: white;
   margin-bottom: 1em;
 }
 
 #messages {
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  /* border: 1px solid black; */
+  border-radius: 4px;
   width: 690px;
   height: 300px;
   overflow: auto;
-  background: #eee;
+  background: white;
   margin-bottom: 1em;
   margin-right: 10px;
 }
 
 #room-list {
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  background: white;
+  border-radius: 4px;
   float: right;
   width: 100px;
   height: 300px;
@@ -34,6 +43,7 @@ a {
 }
 
 #room-list div {
+  transition: all .3s;
   border-bottom: 1px solid #eee
 }
 
@@ -42,11 +52,17 @@ a {
 }
 
 #send-message {
-  width: 700px;
+  width: 685px;
+  font-size: 20px;
+  height: 30px;
   margin-bottom: 1em;
   margin-right: 1em;
 }
 
 #help {
   font-size: 10px;
+}
+
+.pd20 {
+  padding: 10px;
 }

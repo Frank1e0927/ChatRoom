@@ -1,9 +1,9 @@
 function divEscapedContentElement(message) {
-  return $('<div></div>').text(message);
+  return $('<div class="pd20"></div>').text(message);
 }
 
 function divSystemContentElement(message) {
-  return $('<div></div>').html('<i>' + message + '</i>');
+  return $('<div class="pd20"></div>').html('<i>' + message + '</i>');
 }
 
 function processUserInput(chatApp, socket) {
