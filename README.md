@@ -19,4 +19,5 @@ npm i 或者 yarn install
 
 ```bash
 node server.js
+打开localhost:8686
 ```
